@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-800 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-all duration-300 font-medium;
+  }
+  
+  .btn-primary {
+    @apply bg-burgundy-700 text-white hover:bg-burgundy-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-stone-200 text-stone-800 hover:bg-stone-300;
+  }
+  
+  .btn-gold {
+    @apply bg-gold-500 text-stone-900 hover:bg-gold-600;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-elegant overflow-hidden;
+  }
+  
+  .input {
+    @apply px-4 py-2 border border-stone-300 rounded-md focus:outline-none focus:ring-2 focus:ring-burgundy-500 focus:border-transparent;
+  }
+  
+  .link {
+    @apply text-burgundy-700 hover:text-burgundy-500 underline underline-offset-2 transition-colors;
+  }
+  
+  .letter-card {
+    @apply relative bg-stone-50 p-6 rounded-lg shadow-elegant overflow-hidden border border-stone-200;
+  }
+  
+  .letter-card::before {
+    content: '';
+    @apply absolute inset-0 opacity-10 bg-paper-texture bg-cover pointer-events-none;
+  }
+  
+  .letter-content {
+    @apply font-serif leading-relaxed text-stone-800;
+  }
+}
+
+.ql-editor {
+  @apply min-h-[200px] font-serif text-lg;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
