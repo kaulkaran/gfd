@@ -36,7 +36,7 @@ const AppLayout = ({ children }: AppLayoutProps) => {
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <Heart className="h-6 w-6 text-burgundy-700 mr-2" />
-            <span className="font-serif text-xl font-bold text-burgundy-700">Letters to Birangana</span>
+            <span className="font-serif text-xl font-bold text-burgundy-700">Letters to Asmita</span>
           </Link>
           
           {/* Mobile menu button */}
