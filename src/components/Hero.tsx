@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold font-serif text-burgundy-800 mb-6">
-            Letters to Birangana
+            Letters to Asmita
           </h1>
           
           <div className="flex justify-center mb-8">
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-stone-700 max-w-3xl mx-auto mb-8 leading-relaxed font-serif">
-            A digital collection of love, memories, and promises from Karan Kaul to Birangana
+            A digital collection of love, memories, and promises from Karan Kaul to Asmita
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
