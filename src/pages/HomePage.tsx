@@ -84,7 +84,7 @@ const HomePage = () => {
             </div>
             <div className="md:w-1/2">
               <h2 className="font-serif text-3xl md:text-4xl text-burgundy-800 mb-6">
-                From Karan to Birangana
+                From Karan to Asmita
               </h2>
               <p className="text-stone-700 mb-6 leading-relaxed">
                 This digital collection of letters represents my enduring love and commitment. Each letter is a piece of my heart, preserved forever in this special space created just for you.
