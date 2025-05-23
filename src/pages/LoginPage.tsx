@@ -106,7 +106,7 @@ const LoginPage = () => {
           </div>
           
           <p className="text-sm text-stone-500 text-center mt-6">
-            This login is for Karan to write letters to Birangana.
+            This login is for Karan to write letters to Asmita.
           </p>
         </form>
       </motion.div>
