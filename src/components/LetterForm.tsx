@@ -74,7 +74,7 @@ const LetterForm = () => {
           id="title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="My dearest Birangana..."
+          placeholder="My dearest Asmita..."
           className="input w-full"
           disabled={isSubmitting}
         />
@@ -107,7 +107,7 @@ const LetterForm = () => {
           theme="snow"
           value={content}
           onChange={setContent}
-          placeholder="Express your feelings to Birangana..."
+          placeholder="Express your feelings to Asmita..."
           modules={{
             toolbar: [
               [{ 'header': [1, 2, 3, false] }],
